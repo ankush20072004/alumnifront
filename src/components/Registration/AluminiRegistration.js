@@ -93,7 +93,7 @@ const AluminiRegistration = () => {
       }
   
       try {
-        const response = await fetch(`http://localhost:5000/update/alumni/${userId}`, {
+        const response = await fetch(`https://alumniback-np0b.onrender.com/update/alumni/${userId}`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
